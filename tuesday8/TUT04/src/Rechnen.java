@@ -155,7 +155,7 @@ public class Rechnen {
 	* Returns a new Bruchzahl object that is the result of a division between Bruchzahl objects a and b.
 	*/
 	public static Bruchzahl div(Bruchzahl a, Bruchzahl b) {
-		Bruchzahl bNeg = neg(b);
+		Bruchzahl bNeg = kehrwert(b);
 		return mul(a, bNeg);
 	}
 }
